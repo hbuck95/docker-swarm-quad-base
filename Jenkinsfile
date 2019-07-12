@@ -5,7 +5,6 @@ pipeline{
 			steps{
 				sh "pwd"
 				sh "ls -alrt"
-				sh "ls /data"
 			}
 		}
                 stage('Build Client and Server'){
